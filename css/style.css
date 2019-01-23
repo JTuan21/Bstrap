@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-section {
-  margin: 80px;
-}
-
 hr {
   background-color: #61205e;
   height: 2px;
@@ -27,6 +23,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 85vh;
   width: 100%;
   background-color: pink;
+}
+
+.hasPadding{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .footer {
