@@ -8,21 +8,42 @@ hr {
   width: 50px;
 }
 
+img {
+  display: block;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #3E3E3E;
   padding: 20px;
 }
 
-.jumbotron {
-  background-color: #EAEAEA;
-  background-repeat: no-repeat;
-  background-size: cover;
+header {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navBg {
+  background-color: #3E3E3E;
+  opacity: .7;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 
 .hasBg {
   height: 85vh;
   width: 100%;
   background-color: pink;
+}
+
+.myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 
 .hasPadding{
